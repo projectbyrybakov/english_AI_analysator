@@ -1,0 +1,28 @@
+# секреты и локальные данные — никогда не коммитить
+.env
+.env.*
+!.env.example
+private/
+data/
+*.dump
+*.sql.gz
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# node
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+
+# e2e
+e2e/screenshots/
+test-results/
+
+.DS_Store
