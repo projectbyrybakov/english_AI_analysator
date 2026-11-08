@@ -14,7 +14,7 @@
 | `app.js` | интерфейс: занятия, отчёт, банк ошибок, практика, настройки |
 | `styles.css` | оформление, светлая и тёмная тема |
 | `dev/` | имитация среды Claude для локальной проверки (не публикуется) |
-| `tests/` | тесты `node --test artifact/tests` |
+| `tests/` | тесты `node --test artifact/tests/*.test.js` |
 
 ## Возможности страницы (capabilities)
 
@@ -33,7 +33,7 @@
 ## Локальная проверка
 
 ```bash
-node --test artifact/tests
+node --test artifact/tests/*.test.js
 cd artifact && python3 -m http.server 8765   # открыть http://localhost:8765/dev/test.html
 ```
 

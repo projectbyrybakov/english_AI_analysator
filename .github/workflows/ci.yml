@@ -63,7 +63,7 @@ jobs:
         with:
           node-version: 22
       - name: Parser and analysis tests (artifact version)
-        run: node --test artifact/tests
+        run: node --test artifact/tests/*.test.js
 
   e2e:
     runs-on: ubuntu-latest
