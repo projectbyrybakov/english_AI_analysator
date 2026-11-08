@@ -18,6 +18,10 @@
 
 Чего пока нет: AI-анализа ошибок, карточек ошибок, упражнений, отчётов, авторизации. План — в [docs/roadmap.md](docs/roadmap.md).
 
+## Временная версия в Claude
+
+Пока сервер не развёрнут, сервисом можно пользоваться как артефактом Claude — с AI-анализом через ваш аккаунт: https://claude.ai/artifact/U14QWBTwJqvoGV75mbfYhR. Код и устройство — [artifact/README.md](artifact/README.md).
+
 ## Быстрый старт (Docker)
 
 Нужен Docker Desktop.
